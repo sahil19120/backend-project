@@ -2,6 +2,7 @@
   "name": "backend-project",
   "version": "1.0.0",
   "description": "backend project",
+  "type" : "module",
   "keywords": [
     "javascript",
     "backend"
@@ -16,12 +17,9 @@
   },
   "license": "ISC",
   "author": "sahil sirohi",
-  "type": "commonjs",
+  
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
+    "dev": "nodemon src/index.js"
   }
 }
