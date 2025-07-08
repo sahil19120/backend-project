@@ -2,7 +2,7 @@
   "name": "backend-project",
   "version": "1.0.0",
   "description": "backend project",
-  "type" : "module",
+  "type": "module",
   "keywords": [
     "javascript",
     "backend"
@@ -17,9 +17,13 @@
   },
   "license": "ISC",
   "author": "sahil sirohi",
-  
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.2"
   }
 }
