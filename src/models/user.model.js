@@ -19,7 +19,7 @@ const userSchema = new Schema(
             lowercase: true,
             trim: true
         },
-        fullname:{
+        fullName:{
             type : String,
             required: true,
             trim: true,
@@ -35,7 +35,7 @@ const userSchema = new Schema(
         },
         watchHistory:[
             {
-            tyep: Schema.Types.ObjectId,
+            type: Schema.Types.ObjectId,
             ref: "Video"
             }
         ],
